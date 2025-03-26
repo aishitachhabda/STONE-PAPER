@@ -1,0 +1,70 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Score Board */
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.score {
+    font-size: 1.2em;
+}
+
+/* Button Styles */
+.choice-btn {
+    font-size: 1.5em;
+    padding: 20px 40px;
+    margin: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.choice-btn:hover {
+    background-color: #45a049;
+}
+
+/* Result Section */
+.result {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Computer Choice Section */
+.computer-choice {
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-style: italic;
+}
