@@ -1,0 +1,6 @@
+git clone https://github.com/yourusername/stone-paper-scissors-game.git
+cd stone-paper-scissors-game
+# Copy your HTML, CSS, and JS files to this folder
+git add .
+git commit -m "Initial commit with game files"
+git push origin main
